@@ -5,11 +5,7 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {
-      //   gridTemplateColumns: {
-      //     "full-bleed": "1fr min(60ch, calc(100% - 2rem)) 1fr",
-      //   },
-    },
+    extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

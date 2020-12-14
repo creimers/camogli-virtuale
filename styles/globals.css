@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .grid-cols-full-bleed > * {
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr min(60ch, calc(100% - 2rem)) 1fr;
+}
+
+.wrapper > * {
   grid-column: 2;
 }
 
 .full-bleed {
+  width: 100%;
   grid-column: 1 / -1;
-} */
+}
