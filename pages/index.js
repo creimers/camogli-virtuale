@@ -14,8 +14,8 @@ function FullBleedImage({ imageURL, marginBottom }) {
       <div className={klaas}>
         <Image
           src={imageURL}
-          width={6000}
-          height={4000}
+          width={1280}
+          height={854}
           alt="Camogli"
           layout="responsive"
         />
@@ -31,8 +31,8 @@ function AwesomeImage({ imageURL }) {
     <div className="relative mb-4">
       <Image
         src={imageURL}
-        width={6000}
-        height={4000}
+        width={1280}
+        height={854}
         className="rounded-xl"
         layout="responsive"
       />
