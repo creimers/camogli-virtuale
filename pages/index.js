@@ -114,6 +114,7 @@ export default function Home() {
         <AwesomeImage imageURL="/2016/L1070084.jpeg" />
         <AwesomeImage imageURL="/2016/L1070098.jpeg" />
         <AwesomeImage imageURL="/2016/L1070141.jpeg" />
+        <AwesomeImage imageURL="/2016/L1070163.jpeg" />
 
         <FullBleedImage imageURL="/2016/L1070218.jpeg" />
 
