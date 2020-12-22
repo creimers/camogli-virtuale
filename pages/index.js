@@ -14,8 +14,8 @@ function FullBleedImage({ imageURL, marginBottom }) {
       <div className={klaas}>
         <Image
           src={imageURL}
-          width={1280}
-          height={854}
+          width={6000}
+          height={4000}
           alt="Camogli"
           layout="responsive"
         />
@@ -83,11 +83,14 @@ export default function Home() {
         <div className="prose text-yellow-900 mt-8">
           <p>
             Friends, <br />
-            I'm sure it saddens your heart as much as it does mine: We can't go
-            to Camogli this year!
+            I'm sure it saddens your heart as much as it does ours: We can't go
+            to Camogli this year.
           </p>
           <p>But noone will stop us form having a virtual reminiscense!</p>
           <p>Let's meet again 2021!</p>
+          <div className="h-28 flex justify-center items-center">
+            <img className="h-full" src="/panetone.svg" />
+          </div>
           <ThreeStars />
         </div>
         <TheYear year="2016" background="bg-green-100" />
