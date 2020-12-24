@@ -121,7 +121,7 @@ export default function Home() {
 
         <FullBleedImage imageURL="/2016/L1070218.jpeg" />
 
-        <TheYear year="2018" background="bg-green-100" />
+        <TheYear year="2019" background="bg-green-100" />
         <AwesomeImage imageURL="/2018/L1020432.jpeg" />
         <AwesomeImage imageURL="/2018/L1020434.jpeg" />
         <AwesomeImage imageURL="/2018/L1020444.jpeg" />
