@@ -78,16 +78,16 @@ export default function Home() {
         <FullBleedImage imageURL="/camogli.jpg" marginBottom={false} />
         <div className="block sm:hidden bg-green-900 text-white p-4 rounded-lg my-8">
           <p>👀 Friend, may I suggest you look at this on a bigger screen?</p>
-          <p>It will look even ✨ nicer ✨!</p>
+          <p>It will be even ✨ nicer ✨!</p>
         </div>
         <div className="prose text-yellow-900 mt-8">
           <p>
             Friends, <br />
-            I'm sure it saddens your heart as much as it does ours: We can't go
-            to Camogli this year.
+            I'm sure it saddens your heart as much as it does ours: We can't
+            meet in Camogli this year.
           </p>
-          <p>But noone will stop us form having a virtual reminiscense!</p>
-          <p>Let's meet again 2021!</p>
+          <p>But no one will stop us form having a virtual reminiscense!</p>
+          <p>With a bit of luck, let's hope we can meet again 2021!</p>
           <div className="h-28 flex justify-center items-center">
             <img className="h-full" src="/panetone.svg" />
           </div>
